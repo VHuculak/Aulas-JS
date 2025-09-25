@@ -1,0 +1,72 @@
+OPERADOR RELACIONAL
+
+>   = Maior que (fala que o numero da esquerda é maior que o da direita)
+<   = Menor que (fala que o numero da esquerda é menor que o da direita)
+>=  = Maior ou igual que (fala que o numero da esquerda é maior ou igual que o da direita)
+<=  = Menor ou igual que (fala que o numero da esquerda é menor ou igual que o da direita)
+==  = Igual Igual (Verifica se os dois são iguais)
+!=  = Diferente de (Verifica se os dois numeros são diferentes)
+
+===  = Verifica se os 2 são o mesmo numero e o mesmo tipo (number, string, boolean)
+
+OPERADOR LÓGICO
+
+! = Nega tudo e inverte o boleano na frente
+Ex:
+
+!False = Nega o falso então vira verdadeiro
+!True = Nega o verdadeiro vira falso
+
+&& = Pede duas informações verdadeiras, caso uma seja falsa, tudo vira falso
+Ex: 
+
+True && True = True
+True && False = False
+False && True = False
+False && False = False
+
+|| = Aceita qualquer um, desde que um deles sejam verdadeiros
+
+True || True = True
+True || False = True
+False|| True = True
+False|| False = False
+
+ORDEM DE PRECEDENCIA EM UMA EXPRESSÃO (NESTA ORDEM)
+
+Primeiro se faz os Aritmeticos (Nesta ordem):
+() = Paranteses
+** = Potencia
+'* = Multiplicação' , '/ = Divisão' , '% = Resto da deivisão'
+'+ = Soma' , '- = Substração"
+
+Depois operadores relacionais (Sem ordem)
+> < >= <= == ===
+
+Depois operadores Logicos, nesta ordem
+
+! = Não
+&& = E 
+|| = Ou
+
+
+OPERADOR TERNARIO: 
+
+?  :
+
+Chamndo executa uma pergunta com o '?' se isso for verdadeiro vai acontecer um, se não, o outro.
+
+teste ?  true : false 
+
+EX: 
+
+Média >= 7.0 ? "Aprovado : "Reprovado"
+
+Ou seja, se a média for maior ou igual a 7 ele vai aparecer em tela "aprovado" se não for, então "reprovado"
+serve para comparar algo e escolher o que vai dar de retorno dependendo o resultado
+
+Var idade = 16
+
+idade >= 18 ? "Maior de idade" : "Menor de idade"
+
+Resultado: "Maior de idade"
