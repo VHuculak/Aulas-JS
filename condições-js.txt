@@ -1,0 +1,31 @@
+Condição Multipla
+
+SWITCH:
+
+switch (expressão) {
+
+    case valor 1:
+        execução
+
+        break
+
+    case valor 2:
+        execução
+
+        break 
+
+    case valor 3:
+        execução
+
+        break
+
+
+    default:
+
+    break
+
+}
+
+OBS: precisa ter break em casa execução, pois se nao, mesmo encontrando a condição
+verdadeira, ele continuará executando as condições até encontrar o fim, ao colocar
+o "break" ao encontrar a condição verdadeira, o programa pula pro fim encerrando.
