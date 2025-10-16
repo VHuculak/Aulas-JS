@@ -1,0 +1,33 @@
+/* Informações gerais da pagina, cor e fonte da pagina toda */
+body {
+    background:  rgb(76, 117, 239);
+    font: normal 15pt Arial;
+}
+
+/* Informações do titulo, criamos uma sessão só para ele */
+header {
+    color: white;
+    text-align: center;
+}
+
+/* Sessão para criar o conteudo ao centro do site  */
+section{
+    background:  white; /* Cor branca da caixa */
+    border-radius: 20px;  /* Bordas arredondadas  */
+    padding: 15px; /*Tamanho da caixa para baixo ou altura"*/
+    width: 500px;  /* Tamanho lateral da caixa, ou largura */
+    margin: auto; /* ficar ao centro de forma automatica */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.266); /* Fazer sombra atras da caixa */
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+/* informações do Rodapé */
+footer {
+    color: white;
+    text-align: center;
+    font-style:  italic;
+}
