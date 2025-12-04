@@ -1,0 +1,74 @@
+
+Array = Vetor (em pt-br)
+
+Tratase de uma variavel composta que agrupa varios elementos dentro de si
+
+Ex:
+let a = [ ,  ,  ]
+
+Neste exempltemos uma variavel composta (ou array) que esta guardando 3 elementos
+
+
+a = Array/Vetor
+[ ] = elementos
+, = separação
+
+Em cada elemento possui um indice (chave de identificação), inicia em 0 
+
+
+Ou seja, uma variavel composta (ou array/vetor) é uma variavel que tem varios elementos, cada elemento é composto por seu valor
+e por uma chave de identificação (indice)
+
+Ex:
+
+let num = [ 5 , 8 , 4]
+            0   1   2 (chaves de identificação)
+
+
+=====================================================================================================================
+let num = [ 5 , 8 , 4]
+
+Comando para adicionar um elemento no indice 3 por exemplo:
+
+num[3] = 6
+
+estou pedindo para o JS colocar o numero 6 no indice 3, mas esse indice nao existe, pois o JS cria automaticamente.
+
+Ficando: let num = [ 5 , 8 , 4, 6]
+
+=====================================================================================================================
+
+Comando para adicionar um numero sem declarar a posição
+
+num.push(7)
+
+inserindo o numero 7 no final dos indices
+
+Ficando: let num = [ 5 , 8 , 4, 6, 7]
+
+=====================================================================================================================
+
+Comando para ver o tamanho da variavel
+
+num.length
+
+=====================================================================================================================
+
+num.sort()
+
+Comando que coloca os elementos em ordem crescente 
+
+Ficando: let num = [ 4,5,6,7,8]
+
+=====================================================================================================================
+
+num.indexOf(7)
+
+Vai procurar dentro dos elementos(valor) o elemento 7, em nosso caso está no indice 3
+
+[ 4,5,6,7,8]
+  0 1 2 3 4
+
+Caso o valo nao exista, ele vai retornar "-1"
+
+=====================================================================================================================

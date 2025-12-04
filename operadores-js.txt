@@ -37,7 +37,7 @@ ORDEM DE PRECEDENCIA EM UMA EXPRESSÃO (NESTA ORDEM)
 Primeiro se faz os Aritmeticos (Nesta ordem):
 () = Paranteses
 ** = Potencia
-'* = Multiplicação' , '/ = Divisão' , '% = Resto da deivisão'
+'* = Multiplicação' , '/ = Divisão' , '% = Resto da divisão'
 '+ = Soma' , '- = Substração"
 
 Depois operadores relacionais (Sem ordem)
